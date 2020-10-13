@@ -1,7 +1,7 @@
 //START-OF-SCRIPT
 node {
     def JIRA_SITE_NAME = 'jira'
-    def JIRA_PROJ_NAME = 'SKYNET'
+    def JIRA_PROJ_NAME = 'ASEEFAHMED'
     
     def GRADLE_HOME = tool name: 'gradle-4.10.2', type: 'hudson.plugins.gradle.GradleInstallation'
     def REPO_URL = 'https://github.com/cloudacademy/devops-webapp.git'
