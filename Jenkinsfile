@@ -23,7 +23,7 @@ node {
                        description: 'New JIRA Created from Jenkins.',
                        customfield_10124: 'CRQ000000024223 is raised',
                        customfield_10143: 'FB-2209',
-                       components: 'API Team',
+                       components: ['API Team'],
                        issuetype: [name: 'Story']]]
         
         def newIssue = jiraNewIssue issue: issue, site: JIRA_SITE_NAME
