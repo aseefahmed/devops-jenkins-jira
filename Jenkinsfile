@@ -19,7 +19,7 @@ node {
 
     stage('Raise JiraIssue') {
         def issue = [fields: [ project: [key: JIRA_PROJ_NAME],
-                       summary: 'New JIRA Created from Jenkins.',
+                       summary: 'Testing JIRA Created from Jenkins.',
                        description: 'New JIRA Created from Jenkins.',
                        customfield_10124: 'CRQ000000024223 is raised',
                        customfield_10143: 'FB-2209',
