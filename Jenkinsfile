@@ -31,7 +31,7 @@ node {
         def newIssueId = newIssue.data.key
         echo newIssueId
         
-        touch dummy.txt
+        sh 'touch dummy.txt'
         
         def attachment1 = jiraUploadAttachment site: JIRA_SITE_NAME, idOrKey: newIssueId, file: "dummy.txt"
     }
