@@ -18,8 +18,8 @@ node {
     }
 
     stage('Raise JiraIssue') {
-        def issue = jiraGetIssue idOrKey: 'API-714'
-        echo issue.data.toString()
+        def issue1 = jiraGetIssue idOrKey: 'API-714'
+        echo issue1.data.toString()
         
         def issue = [fields: [ project: [key: JIRA_PROJ_NAME],
                        summary: 'Testing JIRA Created from Jenkins.',
