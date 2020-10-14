@@ -22,7 +22,7 @@ node {
                        summary: 'New JIRA Created from Jenkins.',
                        description: 'New JIRA Created from Jenkins.',
                        customfield_10124: 'CRQ000000024223 is raised',
-                       customfield_10143: 'API Capability Prod Support',
+                       customfield_10143: 'FB-2209',
                        issuetype: [name: 'Story']]]
         
         def newIssue = jiraNewIssue issue: issue, site: JIRA_SITE_NAME
