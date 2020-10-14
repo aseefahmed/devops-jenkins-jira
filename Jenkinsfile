@@ -33,7 +33,7 @@ node {
         
         touch dummy.txt
         
-        // def attachment1 = jiraUploadAttachment site: JIRA_SITE_NAME, idOrKey: newIssueId, file: "dummy.txt"
+        def attachment1 = jiraUploadAttachment site: JIRA_SITE_NAME, idOrKey: newIssueId, file: "dummy.txt"
     }
 }
 //END-OF-SCRIPT
