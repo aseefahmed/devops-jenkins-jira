@@ -31,7 +31,7 @@ node {
         def newIssueId = newIssue.data.key
         echo newIssueId
         
-        def attachment1 = jiraUploadAttachment site: JIRA_SITE_NAME, idOrKey: newIssueId, file: "gradle.build.${BUILD_NUMBER}.log"
+        // def attachment1 = jiraUploadAttachment site: JIRA_SITE_NAME, idOrKey: newIssueId, file: "gradle.build.${BUILD_NUMBER}.log"
     }
 }
 //END-OF-SCRIPT
