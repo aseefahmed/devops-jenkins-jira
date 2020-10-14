@@ -21,6 +21,7 @@ node {
         def issue = [fields: [ project: [key: JIRA_PROJ_NAME],
                        summary: 'New JIRA Created from Jenkins.',
                        description: 'New JIRA Created from Jenkins.',
+                       component: 'API Team'
                        issuetype: [name: 'Story']]]
         
         def newIssue = jiraNewIssue issue: issue, site: JIRA_SITE_NAME
